@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Productos Tienda</string>
+    <!-- Definición de price_format -->
+    <string name="price_format">%.2f</string>
+</resources>
