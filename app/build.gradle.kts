@@ -51,7 +51,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore")
     implementation("com.google.firebase:firebase-database:20.3.1")
 
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
 
 
 
