@@ -4,7 +4,6 @@
     android:layout_height="match_parent">
 
     <!-- ImageView Header -->
-
     <ImageView
         android:id="@+id/imageViewHeader"
         android:layout_width="0dp"
@@ -33,7 +32,7 @@
         android:id="@+id/editTextId"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="ID"
+        android:hint="@string/hint_id"
         android:enabled="false"
         android:visibility="gone"
         android:inputType="text"
@@ -47,7 +46,7 @@
         android:id="@+id/editTextName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Nombre"
+        android:hint="@string/hint_name"
         android:inputType="text"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -60,7 +59,7 @@
         android:id="@+id/editTextPrice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Precio"
+        android:hint="@string/hint_price"
         android:inputType="numberDecimal"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -73,7 +72,7 @@
         android:id="@+id/buttonAdd"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Agregar"
+        android:text="@string/button_add"
         android:layout_margin="30dp"
         app:layout_constraintTop_toBottomOf="@id/editTextPrice"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,13 +94,13 @@
             android:id="@+id/buttonGetSqlite"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Ver SQLite" />
+            android:text="@string/button_get_sqlite" />
 
         <Button
             android:id="@+id/buttonGetFirebase"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Ver Firebase" />
+            android:text="@string/button_get_firebase" />
     </LinearLayout>
 
     <!-- Button Sincronizar Firebase -->
@@ -109,7 +108,7 @@
         android:id="@+id/buttonSichronized"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Sincronizar Firebase"
+        android:text="@string/button_synchronize_firebase"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintTop_toBottomOf="@id/linearlayoutbuttons"

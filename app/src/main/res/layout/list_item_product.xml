@@ -36,7 +36,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
-                android:text="Nombre del Producto"
                 android:textStyle="bold"
                 android:textColor="?attr/colorOnBackground" />
 
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:background="?attr/selectableItemBackground"
-                android:text="Editar"
+                android:text="@string/item_button_add"
                 android:textColor="?attr/colorPrimary" />
 
             <Button
@@ -71,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:background="?attr/selectableItemBackground"
-                android:text="Eliminar"
+                android:text="@string/item_button_delete"
                 android:textColor="?attr/colorError" />
         </LinearLayout>
     </LinearLayout>
